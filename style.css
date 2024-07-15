@@ -148,3 +148,7 @@ main {
   box-shadow: 0 0 5px;
   cursor: pointer;
 }
+
+a {
+  color: white;
+}
