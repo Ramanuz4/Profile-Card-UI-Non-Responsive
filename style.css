@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+main {
+  background-image: url(/Assets/img.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 700px;
+  width: 450px;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 15px 20px rgb(0, 0, 0);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  height: 250px;
+  width: 450px;
+  background-color: #3572ef;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-background {
+  height: 180px;
+  width: 180px;
+  background-color: #3572ef;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  background-image: url(/Assets/naruto-pfp-576.png);
+  background-size: cover;
+  height: 93%;
+  width: 93%;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.gamer {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.icons {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-background {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.border {
+  height: 50px;
+  width: 85px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  background-color: #4267b2;
+  padding: 8.5px 15px 8.5px 15px;
+}
+
+.fa-x-twitter {
+  background-color: black;
+  padding: 8.5px 9px 8.5px 9px;
+}
+
+.fa-instagram {
+  background-color: #e1306c;
+  padding: 8.5px 10px 8.5px 10px;
+}
+
+.button {
+  margin: 50px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  padding: 20px 30px 20px 30px;
+  font-size: 1.5rem;
+  background-color: #3572ef;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  box-shadow: 0 0 5px;
+  cursor: pointer;
+}
+
+.message {
+  padding: 20px 25px 20px 25px;
+  font-size: 1.5rem;
+  background-color: #3572ef;
+  border-radius: 40px;
+  color: white;
+  border: none;
+  box-shadow: 0 0 5px;
+  cursor: pointer;
+}
