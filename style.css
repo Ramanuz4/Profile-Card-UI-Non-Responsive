@@ -40,24 +40,21 @@ main {
 }
 
 .image-background {
-  height: 180px;
-  width: 180px;
-  background-color: #3572ef;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
   position: relative;
   top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 4px solid #3572ef;
 }
 
 .img {
   background-image: url(/Assets/naruto-pfp-576.png);
   background-size: cover;
-  height: 93%;
-  width: 93%;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
-  border: 8px solid white;
+  border: 4px solid white;
 }
 
 .name {
